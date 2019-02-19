@@ -1,0 +1,11 @@
+.title {
+  pointer-events: none;
+}
+@media screen and (max-width: 640px) {
+  .title {
+    pointer-events: all;
+  }
+  .toggle {
+    display: none;
+  }
+}
