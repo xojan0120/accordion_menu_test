@@ -1,3 +1,7 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// JS使用ナビゲーションメニュー
 .title {
   pointer-events: none;
 }
@@ -7,5 +11,30 @@
   }
   .toggle {
     display: none;
+  }
+}
+
+// bootstrapナビゲーションメニュー
+ul.nav.navbar-nav {
+  margin-bottom: 0px;
+}
+//.dropdown-menu li {
+//  padding: 10px 10px 10px 20px;
+//}
+//
+//ul.dropdown-menu {
+//  transition:.2s;
+//}
+
+ul.dpt {
+  background-color: #000;
+  color: #fff;
+  display: none;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0px;
+
+  li {
+    padding: 10px;
   }
 }
